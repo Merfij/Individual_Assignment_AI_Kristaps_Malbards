@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249a945666d83cc4d886a4be8b4d37cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Checkpoints
+  currentIndex: 0
   checkpoints: []
   visitedTargets: []
 --- !u!4 &3547151
@@ -2420,7 +2421,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10, y: 10, z: 10}
+  m_Size: {x: 8, y: 8, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &317120143
 MeshRenderer:
@@ -7696,7 +7697,7 @@ Transform:
   m_GameObject: {fileID: 715897529}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.02161, y: -53.03872, z: 157.98816}
+  m_LocalPosition: {x: -20.02161, y: -53.03872, z: 157.34}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
